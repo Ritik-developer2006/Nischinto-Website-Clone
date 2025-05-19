@@ -1,0 +1,737 @@
+/* blog */
+.extra-blog{
+    position: absolute;
+    top: 90%;
+    left: 85%;
+    color: rgb(91, 90, 90);
+    list-style: none;
+    width: 220px;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 10px;
+    border-radius: 8px;
+    z-index: 100;
+    border: 1px solid rgb(187, 185, 185);
+}
+.extra-blog a{
+    text-decoration: none;
+    color: rgb(91, 90, 90);
+}
+.extra-blog li:hover{
+    color: green;
+}
+
+/* nav-top */
+.navtop{
+    height: 35px;
+}
+.topline{
+    color: rgb(10, 230, 157);
+}
+
+/* nav-bar */
+.navbar1{
+    height: 65px;
+    box-shadow: 0px 2px 4px rgb(207, 205, 205);
+}
+.navbar-nav{
+    margin-left: auto;
+}
+
+/* background-gif-card */
+.content{
+    margin-top: 90px;
+    line-height: 5px;
+}
+.text-size{
+    font-size: 50px;
+}
+
+/* latest-news */
+#cardbox1{
+    overflow: hidden;
+}
+#cardbox2{
+    overflow: hidden;
+}
+#cardbox3{
+    overflow: hidden;
+}
+#cardbox1:hover #cardimage1, #cardbox2:hover #cardimage2, #cardbox3:hover #cardimage3{
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0,.4);
+    background-blend-mode: color;
+    transition: all .6s;
+}
+[name="LN-link"]{
+    text-decoration: none;
+    color: black;
+    font-weight: 620;
+}
+
+[name="LN-link"]:hover{
+    color: rgb(25, 84, 25);
+}
+[name="P-link"]{
+    text-decoration: none;
+    color: rgb(209, 202, 202);
+}
+
+[name="P-link"]:hover{
+    text-decoration: none;
+    color: rgb(25, 84, 25);
+}
+
+/* footer */
+div ul{
+    list-style: none;
+    line-height: 38px;
+    list-style-image: url("../../images/next (2).png");
+    color: gray;
+}
+[name="footer-li"]:hover{
+    margin-left: 5px;
+    transition: all .2s;
+}
+div ul li a{
+    text-decoration:none;
+    color: gray;
+}
+div ul li a:hover{
+    color: green;
+}
+.bottom-arrow{
+    background-color: rgb(240, 240, 94);
+    width: 45px;
+    height: 45px;
+    padding-left: 7px;
+    padding-top: 3px;
+    margin-top: -10px;
+    box-shadow: 0px 0px 5px black;
+}
+input{
+    margin: 0;   
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(201, 198, 198);
+    padding-left: 10px;
+}
+::placeholder{
+    color: gray;
+    font-size: 18px;
+    padding-left: 5px;
+}
+textarea{
+    height: 100px;
+    border-radius: 5px;
+    border: 2px solid rgb(201, 198, 198);
+    padding-left: 10px;
+}
+[name="link"]{
+    transition: all .5s;
+    left: 0px;
+}
+[name="link"]:hover{
+    color: green;
+    position: relative;
+    left: 10px;
+}
+.top-a.active{
+    text-decoration: underline;
+    color: green;
+    text-underline-offset: 10px;
+}
+
+.active{
+    color: green;
+}
+#navbar li.active a{
+    text-decoration: underline;
+    color: green !important;
+    text-underline-offset: 10px;
+}
+.logo-icon{
+    color: black;
+}
+.logo-icon:hover{
+    color: blue;
+}
+.logo-icon1:hover{
+    color: rgb(86, 181, 218);
+}.logo-icon2:hover{
+    color: rgb(228, 15, 50);
+}.logo-icon3:hover{
+    color: red;
+}.logo-icon4:hover{
+    color: green;
+}
+#phone-icon{
+    color: green;
+    text-decoration: none;
+}
+#phone-icon:hover{
+    color: red;
+}
+.box:hover{
+    background-color: rgb(21, 177, 21);
+    color: white;
+    cursor: pointer;
+}
+.link1{
+    text-decoration: none;
+}
+.link1:hover{
+    color: green;
+}
+.tag{
+    text-decoration: none;
+    color: gray;
+}
+.tag:hover{
+    color: green;
+}
+#card-img{
+    filter: blur(6px);
+}
+.active{
+    color: green !important;
+}
+#navbar li.active a{
+    text-decoration: underline;
+    color: green !important;
+    text-underline-offset: 10px;
+}
+.top-a.active{
+    text-decoration: underline;
+    color: green !important;
+    text-underline-offset: 10px;
+}
+.logo-icon-bottom{
+    color: black;
+    width: 20px;
+    height: 20px;
+}
+.logo-icon-bottom:hover{
+    color: blue;
+}
+.logo-icon1-bottom:hover{
+    color: rgb(86, 181, 218);
+}.logo-icon2-bottom:hover{
+    color: rgb(228, 15, 50);
+}.logo-icon3-bottom:hover{
+    color: red;
+}.logo-icon4-bottom:hover{
+    color: green;
+}
+
+
+/* resposive-website */
+@media only screen and (max-width:576px){
+    /* nav-top */
+    .navtop{
+        height: auto;
+        box-shadow: none !important;
+    }
+    .bg{
+        backdrop-filter: blur(10px);
+        text-align: center;
+        height: 100vh;
+    }
+    /* footer    */
+    .bottom-arrow{
+        width: 35px;
+        height: 35px;
+        padding-top: -8px;
+        padding-left: 2px;
+        margin-top: -2px;
+    }
+    .button{
+        height: 30px;
+        font-weight: 500;
+        font-size: 14px;
+        width: 100px;
+        padding-top: 3px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    
+    .navbar1{
+        height: 70px;
+        width: 100%;
+    }
+    #card-img{
+        width: 100%;
+        height: 550px;
+    }
+    .row-height1{
+        padding-top: 10px;
+        height: 50px;
+    }
+    .content{
+        margin-top: 210px;
+        line-height: 5px;
+    }
+    .text-size{
+        font-size: 20px;
+    }
+    .text-align{
+        box-align: start !important;
+    }
+    .logo-icon{
+        width: 15px;
+        height: 15px;
+    }
+    .phone-icon{
+        width: 15px;
+        height: 14px;
+        margin-bottom: 5px;
+    }
+    .logo-icon-bottom{
+        margin-left: 5px;
+        width: 20px !important;
+        height: 20px !important;
+    }
+    .logo-icon-bottom:hover{
+        color: blue;
+    }
+    .logo-icon1-bottom:hover{
+        color: rgb(86, 181, 218);
+    }.logo-icon2-bottom:hover{
+        color: rgb(228, 15, 50);
+    }.logo-icon3-bottom:hover{
+        color: red;
+    }.logo-icon4-bottom:hover{
+        color: green;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px)
+            {
+/* footer    */
+ .bottom-arrow{
+    width: 35px;
+    height: 35px;
+    padding-top: -8px;
+    padding-left: 2px;
+    margin-top: -2px;
+ }
+ .row-height1{
+    padding-top: 10px;
+    height: 50px;
+}
+.bottom-size{
+    font-size: 14px !important;
+}
+.padding{
+    padding-left: 63px !important;
+ }
+ .padding1{
+    padding-left: 67px !important;
+ }
+ .navtop{
+    height: 75px;
+    box-shadow: none !important;
+}
+.navbar1{
+    height: 70px;
+    width: 100%;
+}
+.button{
+    height: 25px;
+    font-weight: 500;
+    font-size: 10px;
+    width: 70px;
+    padding-top: 3px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.bg{
+    backdrop-filter: blur(10px);
+    text-align: center;
+    height: 100vh;
+}
+.bottom-arrow{
+    width: 35px;
+    height: 35px;
+    padding-top: -8px;
+    padding-left: 2px;
+    margin-top: -2px;
+ }
+ #card-img{
+    width: 100%;
+    height: 300px;
+}
+.text-size{
+    font-size: 30px;
+}
+.phone-icon{
+    width: 15px;
+    height: 14px;
+    margin-bottom: 5px;
+}
+.logo-icon{
+    width: 20px;
+    height: 20px;
+}
+}
+
+@media only screen and (min-width:768px) and (max-width:992px)
+    {
+         /* nav-top */
+    .navtop{
+        height: 55px;
+        box-shadow: none !important;
+    }
+
+    /* navbar */
+    .navbar1{
+        height: 70px;
+        width: 100%;
+    }
+    .navbar-nav{
+        margin-left: auto;
+    }
+    .bg{
+        backdrop-filter: blur(10px);
+        text-align: center;
+        height: 100vh;
+    }
+
+    /* footer */
+    .bottom-arrow{
+        padding-top: 5px !important;
+        padding-left: 6px !important; 
+     }
+    
+     .bottom-size{
+        font-size: 20px;
+        padding-left: 25px;
+     }
+
+     .bottom-div-size-last{
+        width: 340px;
+     }
+     .bottom-div-size{
+        width: 320px;
+     } 
+     .bottom-size1{
+        font-size: 30px !important;
+        line-height: 10px !important;
+     }
+     .padding{
+        padding-left: 90px !important;
+     }
+     .padding1{
+        padding-left: 89px !important;
+     }
+     .botton-line-width{
+        width: 200px;
+     }
+     div ul{
+        line-height: 45px;
+     }
+     .button{
+        height: 40px;
+        font-weight: 600;
+        font-size: 20px;
+        width: 150px;
+        padding-top: 3px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .row-height1{
+        padding-top: 20px;
+        height: 60px;
+    }
+    #card-img{
+        width: 100%;
+        height: 400px;
+    }
+    .text-size{
+        font-size: 45px;
+    }
+    .content{
+        margin-top: 130px;
+    }
+    .logo-icon{
+        width: 20px;
+        height: 20px;
+    }
+    .phone-icon{
+        width: 16px;
+        height: 16px;
+        margin-bottom: 5px;
+    }
+    }
+
+    @media only screen and (min-width:992px) and (max-width:1200px){
+    .navbar1{
+        height: 60px;
+        width: 100%;
+    }
+    .navtop{
+        height: 35px;
+        box-shadow: none !important;
+    }
+    .row-height1{
+        padding-top: 15px;
+        height: 60px;
+    }
+/* footer    */
+ .bottom-arrow{
+    width: 35px;
+    height: 35px;
+    padding-top: -8px;
+    padding-left: 2px;
+    margin-top: -2px;
+ }
+
+ .bottom-size{
+    font-size: 12px;
+    padding-left: 30px;
+ }
+ .bottom-size1{
+    font-size: 15px !important;
+    line-height: 6px !important;
+ }
+ .padding{
+    padding-left: 55px !important;
+ }
+ .padding1{
+    padding-left: 60px !important;
+ }
+ .botton-line-width{
+    width: 100px;
+ }
+ div ul{
+    line-height: 30px;
+ }
+ #card-img{
+    width: 100%;
+    height: 300px;
+}
+.logo-icon{
+    width: 20px;
+    height: 20px;
+}
+.phone-icon{
+    width: 16px;
+    height: 16px;
+    margin-bottom: 5px;
+}
+#card-img{
+    width: 100%;
+    height: 400px;
+}
+.logo-icon-bottom{
+    margin-left: 5px;
+    width: 20px !important;
+    height: 20px !important;
+}
+.logo-icon-bottom:hover{
+    color: blue;
+}
+.logo-icon1-bottom:hover{
+    color: rgb(86, 181, 218);
+}.logo-icon2-bottom:hover{
+    color: rgb(228, 15, 50);
+}.logo-icon3-bottom:hover{
+    color: red;
+}.logo-icon4-bottom:hover{
+    color: green;
+}
+}
+
+
+@media only screen and (min-width:1200px) and (max-width:1400px){
+    .navbar-nav{
+        margin-left: auto;
+    }
+    .navtop{
+        height: 40px;
+        box-shadow: none !important;
+        font-size: 20px;
+    }
+    .button{
+        height: 40px;
+        font-weight: 600;
+        font-size: 20px;
+        width: 150px;
+        padding-top: 3px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #card-img{
+        width: 100%;
+        height: 400px;
+    }
+    .bottom-arrow{
+        width: 35px;
+        height: 40px;
+        margin-top: -2px;
+        padding-right: 40px !important;
+     }
+    
+     .bottom-size{
+        font-size: 16px;
+        padding-left: 25px;
+     }
+     .bottom-size1{
+        font-size: 30px !important;
+        line-height: 10px !important;
+     }
+     .padding{
+        padding-left: 72px !important;
+     }
+     .padding1{
+        padding-left: 74px !important;
+     }
+     .botton-line-width{
+        width: 200px;
+     }
+     div ul{
+        line-height: 55px;
+     }
+     .row-height1{
+        height: 60px !important;
+        padding-top: 16px;
+     }
+     .logo-icon{
+        width: 20px;
+        height: 20px;
+     }
+     .text-align{
+        text-align: end !important;
+     }
+     .phone-icon{
+        width: 15px;
+        height: 14px;
+        margin-bottom: 5px;
+     }
+     .padding{
+        padding-left: 75px !important;
+     }
+     .padding1{
+        padding-left: 75px !important;
+     }
+     .bottom-size2 {
+        font-size: 16px !important;
+    }
+    .logo-icon-bottom{
+        margin-left: -15px;
+    }
+    .logo-icon-bottom:hover{
+        color: blue;
+    }
+    .logo-icon1-bottom:hover{
+        color: rgb(86, 181, 218);
+    }.logo-icon2-bottom:hover{
+        color: rgb(228, 15, 50);
+    }.logo-icon3-bottom:hover{
+        color: red;
+    }.logo-icon4-bottom:hover{
+        color: green;
+    }
+    }
+
+    @media only screen and (min-width:1400px){
+        /* nav-top */
+        .navtop{
+            height: 40px;
+            box-shadow: none !important;
+        }
+        div svg{
+            width: 40px !important;
+            height: 25px;
+        }
+    
+        /* navbar */
+        .navbar1{
+            height: 80px;
+            width: 100%;
+        }
+        .navbar-nav{
+            margin-left: auto;
+        }
+        /* footer */
+    .bottom-arrow{
+        padding-top: 5px !important;
+        padding-left: 4px !important; 
+     }
+    
+     .bottom-size{
+        font-size: 20px;
+        padding-left: 25px;
+     }
+
+     .bottom-div-size-last{
+        width: 340px;
+     }
+     .bottom-div-size{
+        width: 320px;
+     } 
+     .bottom-size1{
+        font-size: 30px !important;
+        line-height: 10px !important;
+     }
+     .padding{
+        padding-left: 90px !important;
+     }
+     .padding1{
+        padding-left: 89px !important;
+     }
+     .botton-line-width{
+        width: 200px;
+     }
+     div ul{
+        line-height: 45px;
+     }
+     .top-a.active{
+        text-decoration: underline;
+        color: green !important;
+        text-underline-offset: 10px;
+    }
+    #card-img{
+        width: 100%;
+        height: 500px;
+    }
+    .row-height1{
+        height: 60px !important;
+        padding-top: 20px;
+     }
+    .phone-icon{
+        width: 14px !important;
+        height: 16px !important;
+        margin-bottom: 3px;
+    }
+    .logo-icon{
+        width: 18px;
+        height: 18px;
+    }
+    .content{
+        margin-top: 160px;
+    }
+    .text-align{
+        text-align: end !important;
+    }
+    .view-box{
+       object-fit: contain;
+    }
+    .top-a.active{
+        text-decoration: underline;
+        color: green !important;
+        text-underline-offset: 10px;
+    }
+    
+    .active{
+        color: green !important;
+    }
+    #navbar li.active a{
+        text-decoration: underline;
+        color: green !important;
+        text-underline-offset: 10px;
+    }
+}
